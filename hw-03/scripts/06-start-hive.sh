@@ -1,0 +1,2 @@
+cd ~/apache-hive-4.0.0-alpha-2-bin
+hive --service hiveserver2 --hiveconf hive.server2.enable.doAs=false --hiveconf hive.security.authorization.enable=false < /dev/null 1>> /tmp/hs2.log 2>> /tmp/hs2.log &
